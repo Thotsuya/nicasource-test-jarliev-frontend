@@ -26,7 +26,7 @@ export const actions = {
   async getHero({ commit }) {
     try {
       const response = await client.get("/pages?search=home");
-      commit("SET_HERO", response.data);
+      commit("SET_HERO", response.data[0]); // This is because the search returns an array of pages, but we only want the first one, which is the home page.
     } catch (error) {
       console.log(error);
     }
