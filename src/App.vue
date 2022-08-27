@@ -1,12 +1,30 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup</script>
-
 <template>
-  <div class="text-3xl">
-    Initial commit
+  <div class="py-2 md:px-10 px-3">
+    <Navigation/>
   </div>
 </template>
+
+<script>
+import {onMounted} from "vue";
+import {useStore} from 'vuex'
+import Navigation from './components/Navigation/Index.vue'
+
+export default {
+
+  components: {
+    Navigation,
+  },
+
+  setup() {
+
+    const store = useStore()
+
+    onMounted(async () => {
+      await store.dispatch('getPages')
+    })
+  }
+}
+</script>
 
 <style scoped>
 
