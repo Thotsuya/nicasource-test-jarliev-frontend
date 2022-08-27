@@ -1,11 +1,11 @@
 <template>
-  <div class="py-2 md:px-24 px-3">
+  <div class="py-2 md:px-24 px-6">
     <Navigation/>
     <Hero/>
   </div>
   <div class="bg-white w-full h-full">
-    <div class="px-3 py-2 md:px-24">
-
+    <div class="px-6 py-4 md:px-24 relative">
+      <Podcasts/>
     </div>
   </div>
 </template>
@@ -15,12 +15,14 @@ import {onMounted} from "vue";
 import {useStore} from 'vuex'
 import Navigation from './components/Navigation/Index.vue'
 import Hero from './components/Hero/Index.vue'
+import Podcasts from './components/Podcasts/Index.vue'
 
 export default {
 
   components: {
     Navigation,
     Hero,
+    Podcasts,
   },
 
   setup() {
