@@ -7,6 +7,7 @@
     <div class="px-2 py-4 md:px-32 relative">
       <Podcasts/>
       <BlogPosts/>
+      <Gallery/>
     </div>
   </div>
 </template>
@@ -18,6 +19,7 @@ import Navigation from './components/Navigation/Index.vue'
 import Hero from './components/Hero/Index.vue'
 import Podcasts from './components/Podcasts/Index.vue'
 import BlogPosts from './components/Blogpost/Index.vue'
+import Gallery from './components/Gallery/Index.vue'
 
 export default {
 
@@ -26,6 +28,7 @@ export default {
     Hero,
     Podcasts,
     BlogPosts,
+    Gallery
   },
 
   setup: function () {

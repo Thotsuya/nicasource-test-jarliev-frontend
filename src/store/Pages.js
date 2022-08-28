@@ -36,4 +36,5 @@ export const actions = {
 export const getters = {
   pages: (state) => state.pages,
   hero: (state) => state.hero,
+  gallery: (state) => state.hero?.acf?.gallery,
 };
