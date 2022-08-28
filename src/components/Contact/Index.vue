@@ -8,6 +8,7 @@
           class="bg-primary-red text-white px-2 hover:bg-transparent hover:text-primary-red border-primary-red border border-sm transition ease-in-out duration-300"
           @click="validateEmail">
         Subscribe
+        <font-awesome-icon icon="fa-solid fa-arrow-right"/>
       </button>
     </div>
     <div>
