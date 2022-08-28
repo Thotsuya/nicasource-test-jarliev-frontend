@@ -21,7 +21,7 @@
         </button>
       </div>
     </div>
-    <div class="md:w-1/4 w-full">
+    <div class="md:w-1/4 w-full md:mt-0 mt-4">
       <span>Pages</span>
       <div class="my-8 flex flex-col gap-4">
         <a v-for="page in pages" :key="page.id"
