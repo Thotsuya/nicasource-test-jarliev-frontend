@@ -1,7 +1,7 @@
 import { createStore } from "vuex";
-import * as pages from "./pages";
-import * as podcasts from "./podcasts";
-import * as posts from "./posts";
+import * as pages from "./Pages";
+import * as podcasts from "./Podcasts";
+import * as posts from "./Posts";
 
 export default createStore({
   state: {
