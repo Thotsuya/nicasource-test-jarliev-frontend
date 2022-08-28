@@ -43,7 +43,7 @@
       <button
           class="flex flex-row gap-1 border border-gray-200 px-5 py-1 rounded-sm transition ease-in-out duration-300 hover:bg-gray-100 mt-8">
         <div class="my-auto">
-          <img src="/assets/google podcasts.svg" width="30px"/>
+          <img src="/assets/google-podcasts.svg" width="30px"/>
         </div>
         <div class="flex flex-col my-auto">
           <span class="text-xs text-gray-400 mr-auto">Listen on </span>
@@ -53,7 +53,7 @@
       <button
           class="flex flex-row gap-1 border border-gray-200 px-5 py-1 rounded-sm transition ease-in-out duration-300 hover:bg-gray-100 mt-2">
         <div class="my-auto">
-          <img src="/assets/apple podcasts.svg" width="30px"/>
+          <img src="/assets/apple-podcasts.svg" width="30px"/>
         </div>
         <div class="flex flex-col my-auto">
           <span class="text-xs text-gray-400 mr-auto">Listen on </span>
