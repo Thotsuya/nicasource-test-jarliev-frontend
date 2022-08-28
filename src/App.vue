@@ -4,7 +4,7 @@
     <Hero/>
   </div>
   <div class="bg-white w-full h-full">
-    <div class="px-6 py-4 md:px-24 relative">
+    <div class="px-2 py-4 md:px-24 relative">
       <Podcasts/>
     </div>
   </div>
@@ -32,6 +32,7 @@ export default {
     onMounted(async () => {
       await store.dispatch('getPages')
       await store.dispatch('getHero')
+      await store.dispatch('getPodcasts')
     })
   }
 }

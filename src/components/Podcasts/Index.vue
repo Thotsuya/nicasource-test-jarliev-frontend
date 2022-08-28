@@ -7,15 +7,35 @@
         View All
       </button>
     </div>
-    <div>
-      
+    <div v-if="podcasts" class="px-5 flex flex-col gap-8 mt-10">
+      <Card v-for="podcast in podcasts" :key="podcast.id" :podcast="podcast"/>
     </div>
   </div>
 </template>
 
 <script>
+import {useStore} from "vuex";
+import {computed} from "vue";
+import Card from "./Card.vue";
+
 export default {
-  name: "Index"
+
+  components: {
+    Card,
+  },
+
+  setup() {
+    const store = useStore()
+
+    const podcasts = computed(() => {
+      return store.getters.podcasts
+    })
+
+    return {
+      podcasts
+    }
+  }
+
 }
 </script>
 
