@@ -18,7 +18,7 @@
           <button
               class="flex flex-row gap-1 border border-gray-200 px-6 py-2 rounded-sm transition ease-in-out duration-300 hover:bg-gray-100">
             <div class="my-auto">
-              <img src="assets/spotify.svg" width="40px"/>
+              <img src="/assets/spotify.svg" width="40px"/>
             </div>
             <div class="flex flex-col my-auto">
               <span class="text-xs text-gray-400 mr-auto">Listen on </span>
@@ -28,7 +28,7 @@
           <button
               class="flex flex-row gap-1 border border-gray-200 px-6 py-2 rounded-sm transition ease-in-out duration-300 hover:bg-gray-100">
             <div class="my-auto">
-              <img src="assets/google podcasts.svg" width="40px"/>
+              <img src="/assets/google podcasts.svg" width="40px"/>
             </div>
             <div class="flex flex-col my-auto">
               <span class="text-xs text-gray-400 mr-auto">Listen on </span>
@@ -38,7 +38,7 @@
           <button
               class="flex flex-row gap-1 border border-gray-200 px-6 py-2 rounded-sm transition ease-in-out duration-300 hover:bg-gray-100">
             <div class="my-auto">
-              <img src="assets/apple podcasts.svg" width="40px"/>
+              <img src="/assets/apple podcasts.svg" width="40px"/>
             </div>
             <div class="flex flex-col my-auto">
               <span class="text-xs text-gray-400 mr-auto">Listen on </span>
