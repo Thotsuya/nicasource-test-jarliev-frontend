@@ -9,6 +9,7 @@
       <BlogPosts/>
       <Gallery/>
       <Contact/>
+      <Footer/>
     </div>
   </div>
 </template>
@@ -22,6 +23,7 @@ import Podcasts from './components/Podcasts/Index.vue'
 import BlogPosts from './components/Blogpost/Index.vue'
 import Gallery from './components/Gallery/Index.vue'
 import Contact from './components/Contact/Index.vue'
+import Footer from './components/Footer/Index.vue'
 
 export default {
 
@@ -32,6 +34,7 @@ export default {
     BlogPosts,
     Gallery,
     Contact,
+    Footer,
   },
 
   setup: function () {

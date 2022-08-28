@@ -15,15 +15,19 @@ import {
   faInstagram,
   faLinkedin,
   faSkype,
+  faFacebookF,
 } from "@fortawesome/free-brands-svg-icons";
 
-library.add(faBars);
-library.add(faLink);
-library.add(faArrowRight);
-library.add(faFacebook);
-library.add(faInstagram);
-library.add(faLinkedin);
-library.add(faSkype);
+library.add(
+  faBars,
+  faLink,
+  faArrowRight,
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+  faSkype,
+  faFacebookF
+);
 
 createApp(App)
   .use(store)
