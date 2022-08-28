@@ -2,10 +2,10 @@
   <div class="mt-10 p-6 flex flex-col justify-content-center items-center w-full">
     <h3 class="text-3xl mt-10 mb-5">New Episode Every Week!</h3>
     <span class="text-md text-gray-400">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy  eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed.</span>
-    <div class="flex flex-row my-6">
+    <div class="flex flex-row my-6 md:px-0 px-6 justify-content-center items-center">
       <input v-model="email" class="bg-gray-100 py-4 px-6 text-sm" placeholder="Type your email" type="text">
       <button
-          class="bg-primary-red text-white px-2 hover:bg-transparent hover:text-primary-red border-primary-red border border-sm transition ease-in-out duration-300"
+          class="bg-primary-red md:py-3.5 py-1 text-sm md:text-md text-white px-2 hover:bg-transparent hover:text-primary-red border-primary-red border border-sm transition ease-in-out duration-300"
           @click="validateEmail">
         Subscribe
         <font-awesome-icon icon="fa-solid fa-arrow-right"/>
