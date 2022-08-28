@@ -47,7 +47,7 @@
           </button>
         </div>
       </div>
-      <div class="w-full">
+      <div class="w-3/4">
         <img :src="hero?.acf?.featured_image" alt="Trending Episode" class="object-cover mx-auto">
       </div>
 

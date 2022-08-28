@@ -3,7 +3,7 @@
     <Navigation/>
     <Hero/>
   </div>
-  <div class="bg-white w-full h-full">
+  <div class="bg-white w-auto">
     <div class="px-2 py-4 md:px-36 relative">
       <Podcasts/>
       <BlogPosts/>
